@@ -1,0 +1,26 @@
+.card{
+    margin-left: 500px;
+    margin-top: 300px;
+    width: 600px;
+    height: 480px;
+}
+
+input[type="text"], textarea {
+
+    background: linear-gradient(to right,#2cbc6f, #01304a, );
+    border: none;
+    // color:#fff;
+    
+      :-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: red;
+       }
+      
+  }
+  ::placeholder {
+    color: #fff !important;
+     /* Firefox */
+  }
+
+  input {
+    line-height: 2em; // 2em is (2 * default line height)
+}
